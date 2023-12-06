@@ -1,0 +1,26 @@
+/* Core Grid CSS */
+@import 'ag-grid-community/styles/ag-grid.css';
+/* Quartz Theme Specific CSS */
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+/* You can add global styles to this file, and also import other style files */
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.custom-c0ntext {
+    position: absolute;
+    left: 481px;
+    top: 156px;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    line-height: 21px;
+    background: white;
+}
